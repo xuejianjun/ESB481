@@ -38,7 +38,7 @@ ps：编译时可以在pom文件中引入公共仓库：
 第一种是：把中文汉字修改成unicode编码格式。unicode编码转码地址：http://www.cnblogs.com/mq0036/p/4007452.html
 第二种是：直接在页面指定字符集为UTF-8. 页首加上<%@ page language="java" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-此外：WSO2系列产品的国际化做的并不是非常的标准有不少直接写在JSP页面中或者js文件中，这里就需要观众老页面自己去找页面汉化了。
+此外：WSO2系列产品的国际化做的并不是非常的标准有不少直接写在JSP页面中或者js文件中，这里就需要观众老爷们自己去找页面汉化了。
 
 ps：之前K神已经整理菜单与源文件的具体对应关系图，在此引用下：http://m.blog.csdn.net/blog/szh1124/41745899
 
