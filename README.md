@@ -1,7 +1,7 @@
 # ESB481
 ESB481汉化
 -------------------------
-
+2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />  
 ### 准备工作：<br />
 		wso2esb 4.8.1
 		wso2esb 4.8.1的正式发布版本基于wso2carbon 4.2.0的以及 wso2platfrom 4.8.1 
