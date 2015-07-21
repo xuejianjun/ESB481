@@ -15,8 +15,7 @@ ESB481汉化
 		在下载的源码中寻找关键字，proxyservices，我们搜索proxyservices.找到对应jar包org.wso2.carbon.proxyadmin.ui，jar包钟找到对应的templates.jsp页面,在页面中我们往往可以看到这样的代码程序： 
 		<fmt:bundle basename="org.wso2.carbon.proxyadmin.ui.i18n.Resources">，
 		如此可以找到对应的国际化文件org.wso2.carbon.proxyadmin.ui.i18n.Resources。国际化文件中，我们可以找到类似的Resources.properties或者JSResources.properties文件，
-		copy这些文件并修改文件名称为的Resources_zh_CN.properties/JSResources_zh_CN.properties,即添加文件后缀_zh_CN
-汉化*_zh_CN.properties文件。
+		copy这些文件并修改文件名称为的Resources_zh_CN.properties/JSResources_zh_CN.properties,即添加文件后缀_zh_CN，同时汉化*_zh_CN.properties文件。
 
 ### 打包：<br />
 		将修改后的文件编译打包，覆盖wso2esb-4.8.1安装目录下repository\components\plugins下原来jar包，最后运行安装目录的bin下的wso2server.bat即可。。
