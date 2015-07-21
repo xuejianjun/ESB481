@@ -5,8 +5,8 @@ ESB481汉化
 ### 准备工作：<br />
 		wso2esb 4.8.1
 		wso2esb 4.8.1的正式发布版本基于wso2carbon 4.2.0的以及 wso2platfrom 4.8.1 
-		[carbon](https://svn.wso2.org/repos/wso2/carbon/kernel/branches/4.2.0)<br />源码地址：https://svn.wso2.org/repos/wso2/carbon/kernel/branches/4.2.0
-		platfrom地址为：[https://svn.wso2.org/repos/wso2/carbon/platform/tags/turing-chunk07/](https://svn.wso2.org/repos/wso2/carbon/platform/tags/turing-chunk07/)<br />
+		carbon源码地址：https://svn.wso2.org/repos/wso2/carbon/kernel/branches/4.2.0
+		platfrom地址为：[https://svn.wso2.org/repos/wso2/carbon/platform/tags/turing-chunk07/](https://svn.wso2.org/repos/wso2/carbon/platform/tags/turing-chunk07/)
 
 ### 汉化：<br />
 		将wso2esb-4.8.1.zip，解压到本地目录，作为wso2esb-4.8.1的安装目录
