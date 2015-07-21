@@ -1,13 +1,14 @@
 # ESB481
 ESB481汉化
+-------------------------
 
-准备工作：
+### 准备工作：<br />
 wso2esb 4.8.1
 wso2esb 4.8.1的正式发布版本基于wso2carbon 4.2.0的以及 wso2platfrom 4.8.1 
 carbon源码地址：https://svn.wso2.org/repos/wso2/carbon/kernel/branches/4.2.0
 platfrom地址为：https://svn.wso2.org/repos/wso2/carbon/platform/tags/turing-chunk07/
 
-汉化：
+### 汉化：<br />
 将wso2esb-4.8.1.zip，解压到本地目录，作为wso2esb-4.8.1的安装目录
 启动ESB之后，找到需要汉化的页面。
 例如：服务注册页面：https://localhost:9446/carbon/proxyservices/templates.jsp?region=region1&item=proxy_services_menu
@@ -16,7 +17,7 @@ platfrom地址为：https://svn.wso2.org/repos/wso2/carbon/platform/tags/turing-
 国际化文件中，我们可以找到类似的Resources.properties或者JSResources.properties文件，copy这些文件并修改文件名称为的Resources_zh_CN.properties/JSResources_zh_CN.properties,即添加文件后缀_zh_CN
 汉化*_zh_CN.properties文件。
 
-打包：
+### 打包：<br />
 将修改后的文件编译打包，覆盖wso2esb-4.8.1安装目录下repository\components\plugins下原来jar包，最后运行安装目录的bin下的wso2server.bat即可。。
 ps：编译时可以在pom文件中引入公共仓库：
 	 <repositories>
@@ -33,7 +34,7 @@ ps：编译时可以在pom文件中引入公共仓库：
     </repositories>
 
 
-问题：
+### 问题：<br />
 汉化的过程中，最后的结果往往会出现中文乱码，此时有二种方案：
 第一种是：把中文汉字修改成unicode编码格式。unicode编码转码地址：http://www.cnblogs.com/mq0036/p/4007452.html
 第二种是：直接在页面指定字符集为UTF-8. 页首加上<%@ page language="java" pageEncoding="UTF-8"%>
