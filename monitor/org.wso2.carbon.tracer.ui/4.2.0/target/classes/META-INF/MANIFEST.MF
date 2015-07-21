@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.tracer.ui;uses:="org.apache.axis2,org.
+ apache.commons.logging,org.wso2.carbon.tracer.stub.types.carbon,org.a
+ pache.axis2.client,org.apache.axis2.context,org.wso2.carbon.tracer.st
+ ub,org.apache.commons.lang";version="4.2.0",org.wso2.carbon.tracer.ui
+ .i18n;version="4.2.0"
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.tracer.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+Build-Jdk: 1.6.0_17
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1436406331081
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Platform Parent pom hold the properties, plugins w
+ hich are required to build carbon components, carbon features and pro
+ ducts
+Import-Package: org.apache.axis2;resolution:=optional;version="[1.6,2)
+ ",org.apache.axis2.client;resolution:=optional;version="[1.6,2)",org.
+ apache.axis2.context;resolution:=optional;version="[1.6,2)",org.apach
+ e.commons.lang;version="[2.6,3)",org.apache.commons.logging;resolutio
+ n:=optional;version="[1.1,2)",org.wso2.carbon.tracer.stub;version="[4
+ .2.0,4.3.0)",org.wso2.carbon.tracer.stub.types.carbon;version="[4.2.0
+ ,4.3.0)"
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.tracer.ui
+

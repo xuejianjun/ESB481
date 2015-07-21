@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.wsdl2code.ui.client;uses:="org.wso2.ca
+ rbon.registry.core.service,javax.xml.stream,org.apache.commons.loggin
+ g,org.wso2.carbon.ui,org.wso2.carbon.registry.core.session,org.wso2.c
+ arbon.registry.core,org.osgi.framework,org.apache.axiom.om.impl.build
+ er,org.apache.axiom.om";version="4.2.0",org.wso2.carbon.wsdl2code.ui;
+ uses:="org.wso2.carbon.registry.core.service,javax.xml.stream,org.apa
+ che.commons.logging,org.wso2.carbon.ui,org.wso2.carbon.registry.core.
+ session,org.wso2.carbon.registry.core,org.osgi.framework,org.apache.a
+ xiom.om.impl.builder,org.apache.axiom.om,org.apache.axis2,org.wso2.ca
+ rbon.wsdl2code.stub.types.carbon,org.apache.axis2.client,org.apache.a
+ xis2.context,javax.activation,javax.servlet,org.wso2.carbon.wsdl2code
+ .stub,javax.servlet.http";version="4.2.0",org.wso2.carbon.wsdl2code.u
+ i.endpoints;version="4.2.0",org.wso2.carbon.wsdl2code.ui.i18n;version
+ ="4.2.0",org.wso2.carbon.wsdl2code.ui.fileupload;uses:="org.wso2.carb
+ on.ui.transports.fileupload,org.apache.commons.logging,org.apache.com
+ mons.fileupload,org.apache.axis2.context,org.wso2.carbon,javax.activa
+ tion,org.wso2.carbon.utils,javax.servlet.http";version="4.2.0"
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.wsdl2code.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+Build-Jdk: 1.6.0_17
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1436406544956
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: This is the UI module of the project.
+Import-Package: javax.activation;resolution:=optional;version="[1.1,2)
+ ",javax.servlet;version="[2.6.0,3.0.0)",javax.servlet.http;version="[
+ 2.6.0,3.0.0)",javax.xml.stream;resolution:=optional;version="[1.0,2)"
+ ,org.apache.axiom.om;resolution:=optional;version="[1.2,2)",org.apach
+ e.axiom.om.impl.builder;resolution:=optional;version="[1.2,2)",org.ap
+ ache.axis2;resolution:=optional;version="[1.6,2)",org.apache.axis2.cl
+ ient;resolution:=optional;version="[1.6,2)",org.apache.axis2.context;
+ resolution:=optional;version="[1.6,2)",org.apache.commons.fileupload;
+ resolution:=optional,org.apache.commons.logging;resolution:=optional;
+ version="[1.1,2)",org.osgi.framework;resolution:=optional;version="[1
+ .7,2)",org.wso2.carbon;resolution:=optional;version="[4.2,5)",org.wso
+ 2.carbon.registry.core;resolution:=optional;version="[1.0,2)",org.wso
+ 2.carbon.registry.core.service;resolution:=optional;version="[1.0,2)"
+ ,org.wso2.carbon.registry.core.session;resolution:=optional;version="
+ [1.0,2)",org.wso2.carbon.ui;resolution:=optional;version="[4.2,5)",or
+ g.wso2.carbon.ui.transports.fileupload;resolution:=optional;version="
+ [4.2,5)",org.wso2.carbon.utils;resolution:=optional;version="[4.2,5)"
+ ,org.wso2.carbon.wsdl2code.stub;version="[4.2.0,4.3.0)",org.wso2.carb
+ on.wsdl2code.stub.types.carbon;version="[4.2.0,4.3.0)"
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.wsdl2code.ui
+

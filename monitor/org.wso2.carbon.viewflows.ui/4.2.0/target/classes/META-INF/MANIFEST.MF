@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.viewflows.ui.i18n;version="4.2.0"
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.viewflows.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+Build-Jdk: 1.6.0_17
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1436406502940
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Platform Parent pom hold the properties, plugins w
+ hich are required to build carbon components, carbon features and pro
+ ducts
+Import-Package: javax.servlet;version="[2.6.0,3.0.0)",javax.servlet.ht
+ tp;version="[2.6.0,3.0.0)",javax.servlet.jsp;version="[2.2.0,2.3.0)",
+ javax.servlet.jsp.el;version="[2.2.0,2.3.0)",javax.servlet.jsp.jstl.c
+ ore;version="[1.2.1,1.3.0)",javax.servlet.jsp.jstl.fmt;version="[1.2.
+ 1,1.3.0)",javax.servlet.jsp.jstl.sql;version="[1.2.1,1.3.0)",javax.se
+ rvlet.jsp.jstl.tlv;version="[1.2.1,1.3.0)",javax.servlet.jsp.resource
+ s;version="[2.2.0,2.3.0)",javax.servlet.jsp.tagext;version="[2.2.0,2.
+ 3.0)",javax.servlet.resources;version="[2.6.0,3.0.0)",org.apache.tagl
+ ibs.standard;version="[1.2,2)",org.apache.taglibs.standard.extra.spat
+ h;version="[1.2,2)",org.apache.taglibs.standard.functions;version="[1
+ .2,2)",org.apache.taglibs.standard.lang.jstl;version="[1.2,2)",org.ap
+ ache.taglibs.standard.lang.jstl.parser;version="[1.2,2)",org.apache.t
+ aglibs.standard.lang.jstl.test;version="[1.2,2)",org.apache.taglibs.s
+ tandard.lang.jstl.test.beans;version="[1.2,2)",org.apache.taglibs.sta
+ ndard.lang.support;version="[1.2,2)",org.apache.taglibs.standard.reso
+ urces;version="[1.2,2)",org.apache.taglibs.standard.tag.common.core;v
+ ersion="[1.2,2)",org.apache.taglibs.standard.tag.common.fmt;version="
+ [1.2,2)",org.apache.taglibs.standard.tag.common.sql;version="[1.2,2)"
+ ,org.apache.taglibs.standard.tag.common.xml;version="[1.2,2)",org.apa
+ che.taglibs.standard.tag.el.core;version="[1.2,2)",org.apache.taglibs
+ .standard.tag.el.fmt;version="[1.2,2)",org.apache.taglibs.standard.ta
+ g.el.sql;version="[1.2,2)",org.apache.taglibs.standard.tag.el.xml;ver
+ sion="[1.2,2)",org.apache.taglibs.standard.tag.rt.core;version="[1.2,
+ 2)",org.apache.taglibs.standard.tag.rt.fmt;version="[1.2,2)",org.apac
+ he.taglibs.standard.tag.rt.sql;version="[1.2,2)",org.apache.taglibs.s
+ tandard.tag.rt.xml;version="[1.2,2)",org.apache.taglibs.standard.tei;
+ version="[1.2,2)",org.apache.taglibs.standard.tlv;version="[1.2,2)",o
+ rg.eclipse.equinox.http.helper,org.eclipse.equinox.jsp.jasper
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.viewflows.ui
+

@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.application.mgt.ui.i18n;version="4.2.0
+ ",org.wso2.carbon.application.mgt.ui;uses:="org.apache.axis2,org.wso2
+ .carbon.application.mgt.stub,org.apache.commons.logging,org.apache.ax
+ is2.client,org.apache.axis2.context,org.wso2.carbon.application.mgt.s
+ tub.types.carbon,javax.activation,javax.servlet,javax.servlet.http";v
+ ersion="4.2.0",org.wso2.carbon.application.mgt.ui.fileupload;uses:="o
+ rg.wso2.carbon.ui.transports.fileupload,org.apache.commons.logging,or
+ g.wso2.carbon.ui,org.apache.commons.fileupload,org.apache.axis2.conte
+ xt,org.wso2.carbon,javax.activation,org.wso2.carbon.utils,javax.servl
+ et.http,org.apache.axis2,org.wso2.carbon.application.mgt.stub.upload,
+ org.apache.axis2.client,org.wso2.carbon.application.mgt.stub.upload.t
+ ypes.carbon";version="4.2.0"
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.application.mgt.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_17
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1436404003535
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: org.wso2.carbon.application.mgt.ui represent the U
+ I aspects of        org.wso2.carbon.application.mgt bundle
+Import-Package: javax.activation;resolution:=optional;version="[1.1,2)
+ ",javax.servlet;version="[2.6.0,3.0.0)",javax.servlet.http;version="[
+ 2.6.0,3.0.0)",org.apache.axis2;resolution:=optional;version="[1.6,2)"
+ ,org.apache.axis2.client;resolution:=optional;version="[1.6,2)",org.a
+ pache.axis2.context;resolution:=optional;version="[1.6,2)",org.apache
+ .commons.fileupload;resolution:=optional,org.apache.commons.logging;r
+ esolution:=optional;version="[1.1,2)",org.wso2.carbon;resolution:=opt
+ ional;version="[4.2,5)",org.wso2.carbon.application.mgt.stub;version=
+ "[4.2.0,4.3.0)",org.wso2.carbon.application.mgt.stub.types.carbon;ver
+ sion="[4.2.0,4.3.0)",org.wso2.carbon.application.mgt.stub.upload;vers
+ ion="[4.2.0,4.3.0)",org.wso2.carbon.application.mgt.stub.upload.types
+ .carbon;version="[4.2.0,4.3.0)",org.wso2.carbon.ui;resolution:=option
+ al;version="[4.2,5)",org.wso2.carbon.ui.transports.fileupload;resolut
+ ion:=optional;version="[4.2,5)",org.wso2.carbon.utils;resolution:=opt
+ ional;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.application.mgt.ui
+

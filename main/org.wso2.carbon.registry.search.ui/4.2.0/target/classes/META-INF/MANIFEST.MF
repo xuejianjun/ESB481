@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.registry.search.ui;uses:="org.apache.c
+ ommons.logging,org.wso2.carbon.registry.search.stub.common.xsd,javax.
+ servlet.http";version="4.2.0",org.wso2.carbon.registry.search.ui.clie
+ nts;uses:="org.apache.axis2,org.wso2.carbon.registry.core.pagination,
+ org.wso2.carbon.registry.search.stub,org.wso2.carbon.registry.search.
+ ui,org.apache.commons.logging,org.wso2.carbon.ui,org.apache.axis2.cli
+ ent,org.wso2.carbon.registry.search.stub.beans.xsd,org.apache.axis2.c
+ ontext,org.wso2.carbon.registry.search.stub.common.xsd,javax.servlet,
+ org.wso2.carbon.registry.core.exceptions,javax.servlet.http";version=
+ "4.2.0",org.wso2.carbon.registry.search.ui.report.beans;version="4.2.
+ 0",org.wso2.carbon.registry.search.ui.i18n;version="4.2.0"
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.registry.search.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+Build-Jdk: 1.6.0_17
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1436405971710
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Platform Parent pom hold the properties, plugins w
+ hich are required to build carbon components, carbon features and pro
+ ducts
+Import-Package: javax.servlet;version="[2.6.0,3.0.0)",javax.servlet.ht
+ tp;version="[2.6.0,3.0.0)",javax.xml.namespace;version="0.0.0",org.ap
+ ache.axis2;resolution:=optional;version="[1.6,2)",org.apache.axis2.cl
+ ient;resolution:=optional;version="[1.6,2)",org.apache.axis2.context;
+ resolution:=optional;version="[1.6,2)",org.apache.commons.logging;res
+ olution:=optional;version="[1.1,2)",org.wso2.carbon.registry.core.exc
+ eptions;version="0.0.0",org.wso2.carbon.registry.core.pagination;vers
+ ion="0.0.0",org.wso2.carbon.registry.search.stub;version="[4.2.0,4.3.
+ 0)",org.wso2.carbon.registry.search.stub.beans.xsd;version="[4.2.0,4.
+ 3.0)",org.wso2.carbon.registry.search.stub.common.xsd;version="[4.2.0
+ ,4.3.0)",org.wso2.carbon.ui;resolution:=optional;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.registry.search.ui
+

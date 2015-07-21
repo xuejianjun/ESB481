@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.service.mgt.ui;uses:="org.apache.axis2
+ ,org.apache.commons.logging,org.wso2.carbon.service.mgt.stub,org.apac
+ he.axis2.client,org.apache.axis2.context,org.apache.axiom.om.impl.bui
+ lder,org.apache.axiom.om.util,org.apache.axiom.om,javax.xml.namespace
+ ,javax.activation,javax.servlet,javax.xml.stream,org.wso2.carbon.util
+ s.xml,org.wso2.carbon.service.mgt.stub.types.carbon,javax.servlet.htt
+ p,org.wso2.carbon.ui";version="4.2.0",org.wso2.carbon.service.mgt.ui.
+ i18n;version="4.2.0"
+Built-By: Administrator
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.service.mgt.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_17
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1436406106005
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: org.wso2.carbon.service.mgt.ui represent the UI as
+ pects of        org.wso2.carbon.service.mgt bundle
+Import-Package: javax.activation;resolution:=optional;version="[1.1,2)
+ ",javax.servlet;resolution:=optional;version="[2.6,3)",javax.servlet.
+ http;resolution:=optional;version="[2.6,3)",javax.xml.namespace;resol
+ ution:=optional,javax.xml.stream;resolution:=optional;version="[1.0,2
+ )",org.apache.axiom.om;version="[1.2.11.wso2v2,1.3.0)",org.apache.axi
+ om.om.impl.builder;version="[1.2.11.wso2v2,1.3.0)",org.apache.axiom.o
+ m.util;version="[1.2.11.wso2v2,1.3.0)",org.apache.axis2;version="[1.6
+ .1.wso2v1,1.7.0)",org.apache.axis2.client;version="[1.6.1.wso2v1,1.7.
+ 0)",org.apache.axis2.context;version="[1.6.1.wso2v1,1.7.0)",org.apach
+ e.commons.logging;resolution:=optional;version="[1.1,2)",org.wso2.car
+ bon.service.mgt.stub;version="[4.2.0,4.3.0)",org.wso2.carbon.service.
+ mgt.stub.types.carbon;version="[4.2.0,4.3.0)",org.wso2.carbon.ui;reso
+ lution:=optional;version="[4.2,5)",org.wso2.carbon.utils.xml;resoluti
+ on:=optional;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.service.mgt.ui
+
